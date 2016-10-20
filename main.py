@@ -128,6 +128,7 @@ for id,filename in enumerate(os.listdir(os.getcwd()+'/data')):
 	if(argmaxClass == index[id]):
 		NUMBER_OF_CORRECT+=1
 	TOTAL += 1
+	print argmaxClass
 	print "CORRECT: ",
 	print NUMBER_OF_CORRECT
 	print "TOTAL: ",
